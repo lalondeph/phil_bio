@@ -17,10 +17,6 @@
             class="
               dropdown-menu dropdown-menu-end
               border-success
-              bg-success
-              p-2
-              text-dark
-              bg-opacity-10
             "
           >
             <li>
