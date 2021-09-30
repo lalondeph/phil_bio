@@ -1,98 +1,108 @@
 <template>
-  <div>
-    <div class="row top-row">
-      <div class="made-it-txt">
-        <span>You made it!</span> <span class="avoidwrap">My name is</span>
+  <div class="container">
+    <div class="col-sm"></div>
+    <div class="col-sm">
+      <div class="row top-row">
+        <div class="made-it-txt">
+          <span>You made it!</span> <span class="avoidwrap">My name is</span>
+        </div>
+        <div class="name-txt">
+          <span class="first-name">Philip</span>
+          <span class="last-name avoidwrap">Lalonde</span>
+        </div>
       </div>
-      <div class="name-txt">
-        <span class="first-name">Philip</span>
-        <span class="last-name">Lalonde</span>
+
+      <div class="row bio">
+        <div class="col-md-4" align="center">
+          <div>
+            <img
+              class="rounded bio-img"
+              src="../assets/bio.jpg"
+              alt="Philip Lalonde"
+            />
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div class="lead text-success text-justify about-me">
+            I'm glad you stopped by. I recently left the lawn care industry to
+            pursue a career in IT. It has been a wild ride so far and I am
+            excited to keep learning. Right now I am passionate about Laravel,
+            Vue.js, MVC, Git, JavaScript, PHP, and debugging. I have a lot to
+            learn, but with blazing fast google speed, intelligent questions for
+            Senior Devs, and a positive attitude I'm confident we can solve the
+            next problem and ship on time. Reach me in person via my contact
+            page (free lawn advice available). I am eager to collaborate and I
+            would love to take a look at your project.
+          </div>
+        </div>
+      </div>
+
+      <div class="row summary">
+        <div class="card-group">
+          <div class="col-md">
+            <div class="card h-100 border-success">
+              <div class="card-body">
+                <h5 class="card-title">Junior Developer</h5>
+                <p class="card-text">
+                  Graduating from the Computer Programmer Analyst program at St.
+                  Lawrence College spring of 2022. Download my resume for more
+                  information.
+                </p>
+              </div>
+              <div class="card-footer bg-transparent border-success">
+                <a class="text-muted">
+                  philip-lalonde-resume.pdf <i class="bi bi-download"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md">
+            <div class="card h-100 border-success">
+              <div class="card-body">
+                <h5 class="card-title">Working At</h5>
+                <p class="card-text">
+                  Working as a software engineer at Elentra, and loving every
+                  minute of it. Elentra is a leading innovator in competency
+                  based medical education. Connect on linkedin to see my career
+                  experiences.
+                </p>
+              </div>
+              <div class="card-footer bg-transparent border-success">
+                <a
+                  href="https://www.linkedin.com/in/philip-lalonde/"
+                  target="_blank"
+                >
+                  <small class="text-muted"
+                    ><i class="bi bi-linkedin"></i
+                  ></small>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md">
+            <div class="card h-100 border-success">
+              <div class="card-body">
+                <h5 class="card-title">FAQ</h5>
+                <p class="card-text">
+                  Will I be a good fit for your team? What kind of memes will I
+                  send everyone on slack? Great questions! Get to know me in the
+                  FAQ.
+                </p>
+              </div>
+              <div class="card-footer bg-transparent border-success">
+                <i class="bi bi-info-circle"></i>
+                <small class="text-muted">
+                  <router-link to="/faq"> FAQ page link </router-link>
+                </small>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-
-    <div class="row bio">
-      <div class="col-md-4">
-        <div>
-          <img
-            class="rounded bio-img"
-            src="../assets/bio.jpg"
-            alt="Philip Lalonde"
-          />
-        </div>
-      </div>
-      <div class="col-md-8">
-        <div class="lead text-success text-justify about-me">
-          I'm glad you stopped by. I recently left the lawn care industry to
-          pursue a career in IT. It has been a wild ride so far and I am excited
-          to keep learning. Right now I am passionate about Laravel, Vue.js,
-          MVC, Git, JavaScript, PHP, and debugging. I have a lot to learn, but
-          with blazing fast google speed, intelligent questions for Senior Devs,
-          and a positive attitude I'm confident we can solve the next problem
-          and ship on time. Reach me in person via my contact page (free lawn
-          advice available). I am eager to collaborate and I would love to take
-          a look at your project.
-        </div>
-      </div>
-    </div>
-
-    <div class="row row-cols-3 summary">
-      <div class="col">
-        <div class="card border-success">
-          <div class="card-body">
-            <h5 class="card-title">Junior Developer</h5>
-            <p class="card-text">
-              Graduating from the Computer Programmer Analyst program at St.
-              Lawrence College spring of 2022. Download my resume for more
-              information.
-            </p>
-          </div>
-          <div class="card-footer bg-transparent border-success">
-            <a class="text-muted">
-              philip-lalonde-resume.pdf <i class="bi bi-download"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="card border-success">
-          <div class="card-body">
-            <h5 class="card-title">Working At</h5>
-            <p class="card-text">
-              Working as a software engineer at Elentra, and loving every minute
-              of it. Elentra is a leading innovator in competency based medical
-              education. Connect on linkedin to see my career experiences.
-            </p>
-          </div>
-          <div class="card-footer bg-transparent border-success">
-            <a
-              href="https://www.linkedin.com/in/philip-lalonde/"
-              target="_blank"
-            >
-              <small class="text-muted"><i class="bi bi-linkedin"></i></small>
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="card border-success">
-          <div class="card-body">
-            <h5 class="card-title">FAQ</h5>
-            <p class="card-text">
-              Will I be a good fit for your team? What kind of memes will I send
-              everyone on slack? Great questions! Get to know me in the FAQ.
-            </p>
-          </div>
-          <div class="card-footer bg-transparent border-success">
-            <i class="bi bi-info-circle"></i>
-            <small class="text-muted">
-              <router-link to="/faq"> FAQ page link </router-link>
-            </small>
-          </div>
-        </div>
-      </div>
-    </div>
+    <div class="col-sm"></div>
   </div>
 </template>
 
@@ -134,7 +144,7 @@ span.avoidwrap {
 .bio-img {
   width: 100%;
   height: auto;
-  max-width: 300px;
+  max-width: 350px;
 }
 .footer-txt {
   color: #a76f00;
@@ -144,5 +154,8 @@ span.avoidwrap {
 }
 .card-text {
   text-align: justify;
+}
+.card {
+  margin-bottom: 3%;
 }
 </style>

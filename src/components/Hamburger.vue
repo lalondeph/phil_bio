@@ -1,30 +1,57 @@
 <template>
-  <div>
-    <div class="row float-right">
-      <div class="dropdown dropleft">
-        <button
-          class="btn dropdown-toggle"
-          type="button"
-          id="dropdownMenuButton"
-          data-toggle="dropdown"
-          aria-haspopup="true"
-          aria-expanded="false"
-        >
-          <i class="bi bi-list stripes"></i>
-        </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <div class="dropdown-item">
-            <router-link to="/">Home</router-link>
-          </div>
-          <div class="dropdown-item">
-            <router-link to="/FAQ">FAQ</router-link>
-          </div>
-          <div class="dropdown-item">
-            <router-link to="/Contact">Contact</router-link>
-          </div>
+  <div class="container">
+    <div class="col-sm"></div>
+    <div class="col-sm">
+      <div class="row float-right">
+        <div class="btn-group">
+          <button
+            type="button"
+            class="btn toggle dropdown-toggle"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <i class="bi bi-list stripes"></i>
+          </button>
+
+          <ul
+            class="
+              dropdown-menu dropdown-menu-end
+              border-success
+              bg-success
+              p-2
+              text-dark
+              bg-opacity-10
+            "
+          >
+            <li>
+              <button
+                class="dropdown-item text-success"
+                @click="$router.push({ name: 'Bio' })"
+              >
+                Home
+              </button>
+            </li>
+            <li>
+              <button
+                class="dropdown-item text-success"
+                @click="$router.push({ name: 'FAQ' })"
+              >
+                FAQ
+              </button>
+            </li>
+            <li>
+              <button
+                class="dropdown-item text-success"
+                @click="$router.push({ name: 'Contact' })"
+              >
+                Contact
+              </button>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
+    <div class="col-sm"></div>
   </div>
 </template>
 
@@ -32,11 +59,13 @@
 </script>
 
 <style scoped>
-.stripes {
-  color: #a76f00;
-}
 .row {
   position: relative;
   z-index: 99;
+}
+.toggle {
+  background-color: #ffaa00;
+  color: white;
+  text-align: center;
 }
 </style>
