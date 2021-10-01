@@ -28,9 +28,7 @@
                   aria-labelledby="headingOne"
                   data-bs-parent="#faqAccordion"
                 >
-                  <div class="accordion-body">
-                    Hello!
-                  </div>
+                  <div class="accordion-body">Hello!</div>
                 </div>
               </div>
               <div class="accordion-item">
@@ -52,9 +50,7 @@
                   aria-labelledby="headingTwo"
                   data-bs-parent="#faqAccordion"
                 >
-                  <div class="accordion-body">
-                    hello agian
-                  </div>
+                  <div class="accordion-body">hello agian</div>
                 </div>
               </div>
               <div class="accordion-item">
@@ -76,9 +72,7 @@
                   aria-labelledby="headingThree"
                   data-bs-parent="#faqAccordion"
                 >
-                  <div class="accordion-body">
-                    And again!
-                  </div>
+                  <div class="accordion-body">And again!</div>
                 </div>
               </div>
             </div>

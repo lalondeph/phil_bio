@@ -53,8 +53,12 @@
                 class="card-footer bg-transparent border-success"
                 align="center"
               >
-                
-                <a href="/Philip-Lalonde-Resume.pdf" class=" btn stretched-link text-success" role="button" download="Philip-Lalonde-Resume.pdf">
+                <a
+                  href="/Philip-Lalonde-Resume.pdf"
+                  class="btn stretched-link text-success"
+                  role="button"
+                  download="Philip-Lalonde-Resume.pdf"
+                >
                   <i class="bi bi-file-pdf-fill text-danger"></i>My Resume
                 </a>
               </div>
@@ -78,17 +82,17 @@
               >
                 <div>
                   <div>
-                  <a
-                    href="https://www.linkedin.com/in/philip-lalonde/"
-                    target="_blank"
-                    class="btn stretched-link text-success"
-                    role="button"
-                  >
-                    <i class="bi bi-linkedin text-primary"></i>
-                    My Linkedin
-                  </a>
+                    <a
+                      href="https://www.linkedin.com/in/philip-lalonde/"
+                      target="_blank"
+                      class="btn stretched-link text-success"
+                      role="button"
+                    >
+                      <i class="bi bi-linkedin text-primary"></i>
+                      My Linkedin
+                    </a>
+                  </div>
                 </div>
-              </div>
               </div>
             </div>
           </div>
@@ -107,10 +111,13 @@
                 class="card-footer bg-transparent border-success"
                 align="center"
               >
-                
                 <div class="text-success">
-                  <router-link to="/faq" class="btn stretched-link text-success" role="button">
-                   <i class="bi bi-person-fill text-secondary"></i> FAQ
+                  <router-link
+                    to="/faq"
+                    class="btn stretched-link text-success"
+                    role="button"
+                  >
+                    <i class="bi bi-person-fill text-secondary"></i> FAQ
                   </router-link>
                 </div>
               </div>

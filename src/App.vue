@@ -17,5 +17,8 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+.components {
+  overflow: hidden;
+}
 </style>

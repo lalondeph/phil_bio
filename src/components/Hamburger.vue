@@ -13,12 +13,7 @@
             <i class="bi bi-list stripes"></i>
           </button>
 
-          <ul
-            class="
-              dropdown-menu dropdown-menu-end
-              border-success
-            "
-          >
+          <ul class="dropdown-menu dropdown-menu-end border-success">
             <li>
               <button
                 class="dropdown-item text-success"
