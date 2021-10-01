@@ -49,9 +49,13 @@
                   information.
                 </p>
               </div>
-              <div class="card-footer bg-transparent border-success">
-                <a class="text-muted">
-                  philip-lalonde-resume.pdf <i class="bi bi-download"></i>
+              <div
+                class="card-footer bg-transparent border-success"
+                align="center"
+              >
+                
+                <a href="/Philip-Lalonde-Resume.pdf" class=" btn stretched-link text-success" role="button" download="Philip-Lalonde-Resume.pdf">
+                  <i class="bi bi-file-pdf-fill text-danger"></i>My Resume
                 </a>
               </div>
             </div>
@@ -68,15 +72,23 @@
                   experiences.
                 </p>
               </div>
-              <div class="card-footer bg-transparent border-success">
-                <a
-                  href="https://www.linkedin.com/in/philip-lalonde/"
-                  target="_blank"
-                >
-                  <small class="text-muted"
-                    ><i class="bi bi-linkedin"></i
-                  ></small>
-                </a>
+              <div
+                class="card-footer bg-transparent border-success"
+                align="center"
+              >
+                <div>
+                  <div>
+                  <a
+                    href="https://www.linkedin.com/in/philip-lalonde/"
+                    target="_blank"
+                    class="btn stretched-link text-success"
+                    role="button"
+                  >
+                    <i class="bi bi-linkedin text-primary"></i>
+                    My Linkedin
+                  </a>
+                </div>
+              </div>
               </div>
             </div>
           </div>
@@ -91,11 +103,16 @@
                   FAQ.
                 </p>
               </div>
-              <div class="card-footer bg-transparent border-success">
-                <i class="bi bi-info-circle"></i>
-                <small class="text-muted">
-                  <router-link to="/faq"> FAQ page link </router-link>
-                </small>
+              <div
+                class="card-footer bg-transparent border-success"
+                align="center"
+              >
+                
+                <div class="text-success">
+                  <router-link to="/faq" class="btn stretched-link text-success" role="button">
+                   <i class="bi bi-person-fill text-secondary"></i> FAQ
+                  </router-link>
+                </div>
               </div>
             </div>
           </div>
@@ -157,5 +174,8 @@ span.avoidwrap {
 }
 .card {
   margin-bottom: 3%;
+}
+.card-footer {
+  position: relative;
 }
 </style>
