@@ -3,9 +3,13 @@
     <div class="col-sm"></div>
     <div class="col-sm">
       <div class="row top-row">
-        <div class="made-it-txt">
-          <span>You made it!</span> <span class="avoidwrap">My name is</span>
-        </div>
+        <span class="made-it-txt">
+          <span class="components float-end">
+            <hamburger /></span>
+            <span>You made it! </span>
+            <span class="avoidwrap">My name is</span>
+        </span>
+
         <div class="name-txt">
           <span class="first-name">Philip</span>
           <span class="last-name avoidwrap">Lalonde</span>
@@ -125,12 +129,19 @@
           </div>
         </div>
       </div>
+      <div class="col-sm"></div>
     </div>
-    <div class="col-sm"></div>
   </div>
 </template>
 
 <script>
+import Hamburger from "../components/Hamburger.vue";
+
+export default {
+  components: {
+    Hamburger,
+  },
+};
 </script>
 
 <style scoped>
@@ -145,6 +156,7 @@
   font-size: 2.5em;
   color: #a76f00;
   padding-left: 0.3em;
+  padding-right: 10px;
 }
 .name-txt {
   color: #ffaa00;

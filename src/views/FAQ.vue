@@ -2,10 +2,17 @@
   <div class="container">
     <div class="col-sm"></div>
     <div class="col-sm">
-      <div class="row top-row">
-        <div class="pattern-dots-lg dots" align="center">
-          <h1 class="faq-txt">FAQ</h1>
+      <div class="top-row pattern-dots-lg dots">
+        <div class="row components float-end">
+          <hamburger />
         </div>
+
+        <div class="row">
+          <div align="center">
+            <h1 class="faq-txt">FAQ</h1>
+          </div>
+        </div>
+
         <div class="row">
           <div class="faq-accordion">
             <div class="accordion" id="faqAccordion">
@@ -85,6 +92,13 @@
 </template>
 
 <script>
+import Hamburger from "../components/Hamburger.vue";
+
+export default {
+  components: {
+    Hamburger,
+  },
+};
 </script>
 
 <style scoped>

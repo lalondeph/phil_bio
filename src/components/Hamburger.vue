@@ -1,8 +1,7 @@
 <template>
   <div class="container">
-    <div class="col-sm"></div>
     <div class="col-sm">
-      <div class="row float-right">
+      <div class="row">
         <div class="btn-group">
           <button
             type="button"
@@ -19,7 +18,7 @@
                 class="dropdown-item text-success"
                 @click="$router.push({ name: 'Bio' })"
               >
-                Home
+                <i class="bi bi-house-door-fill"></i> Home
               </button>
             </li>
             <li>
@@ -27,7 +26,7 @@
                 class="dropdown-item text-success"
                 @click="$router.push({ name: 'FAQ' })"
               >
-                FAQ
+                <i class="bi bi-person-fill text-secondary"></i> FAQ
               </button>
             </li>
             <li>
@@ -35,18 +34,18 @@
                 class="dropdown-item text-success"
                 @click="$router.push({ name: 'Contact' })"
               >
-                Contact
+                <i class="bi bi-envelope-fill"></i> Contact
               </button>
             </li>
           </ul>
         </div>
       </div>
     </div>
-    <div class="col-sm"></div>
   </div>
 </template>
 
 <script>
+// TODO: Recieve current page as a prop to set active
 </script>
 
 <style scoped>
@@ -58,5 +57,11 @@
   background-color: #ffaa00;
   color: white;
   text-align: center;
+}
+.dropdown-toggle::after {
+    content: none;
+}
+.bi-house-door-fill {
+  color: #ffaa00;
 }
 </style>
