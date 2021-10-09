@@ -58,9 +58,9 @@
 .bi-house-door-fill {
   color: #ffaa00;
 }
-@include media-breakpoint-down(lg) {
+@media (max-width: 991.98px) {
   .dropdown-item {
-    font-size: 4em;
+    font-size: clamp(2em, 6vw, 8em);
   }
 }
 </style>
