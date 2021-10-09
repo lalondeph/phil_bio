@@ -3,10 +3,6 @@
     <div class="col-sm"></div>
     <div class="col-sm">
       <div class="top-row pattern-dots-lg dots">
-        <div class="row components float-end">
-          <hamburger />
-        </div>
-
         <div class="row">
           <div align="center">
             <h1 class="faq-txt">FAQ</h1>
@@ -92,19 +88,12 @@
 </template>
 
 <script>
-import Hamburger from "../components/Hamburger.vue";
-
-export default {
-  components: {
-    Hamburger,
-  },
-};
 </script>
 
 <style scoped>
-.top-row {
+/* .top-row {
   margin-top: 5%;
-}
+} */
 .faq-txt {
   color: #ffaa00;
   font-size: 8em;

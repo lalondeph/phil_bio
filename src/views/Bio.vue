@@ -4,10 +4,8 @@
     <div class="col-sm">
       <div class="row top-row">
         <span class="made-it-txt">
-          <span class="components float-end">
-            <hamburger /></span>
-            <span>You made it! </span>
-            <span class="avoidwrap">My name is</span>
+          <span>You made it! </span>
+          <span class="avoidwrap">My name is</span>
         </span>
 
         <div class="name-txt">
@@ -135,22 +133,15 @@
 </template>
 
 <script>
-import Hamburger from "../components/Hamburger.vue";
-
-export default {
-  components: {
-    Hamburger,
-  },
-};
 </script>
 
 <style scoped>
 .components {
   margin-bottom: 1em;
 }
-.top-row {
+/* .top-row {
   margin-top: 5%;
-}
+} */
 .made-it-txt {
   font-weight: 100;
   font-size: 2.5em;
