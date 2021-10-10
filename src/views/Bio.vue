@@ -28,7 +28,8 @@
           <div class="lead text-success text-justify about-me">
             I'm glad you stopped by. I recently left the lawn care industry to
             pursue a career in IT. It has been a wild ride so far and I am
-            excited to keep learning. Right now I am passionate about Laravel,
+            excited to keep learning.<br>
+            Right now I am passionate about Laravel,
             Vue.js, MVC, Git, JavaScript, PHP, and debugging. I have a lot to
             learn, but with blazing fast google speed, intelligent questions for
             Senior Devs, and a positive attitude I'm confident we can solve the
@@ -160,7 +161,7 @@
 }
 .made-it-txt,
 .name-txt {
-  line-height: 0.9;
+  line-height: 0.99;
 }
 .row {
   margin-bottom: 5%;
@@ -172,6 +173,7 @@ span.avoidwrap {
   width: 100%;
   height: auto;
   max-width: 350px;
+  margin-bottom: 3%
 }
 .footer-txt {
   color: #a76f00;
