@@ -43,7 +43,7 @@
       <div class="row summary">
         <div class="card-group">
           <div class="col-md">
-            <div class="card h-100 border-success">
+            <div class="card text-center h-100 border-success">
               <div class="card-body">
                 <h5 class="card-title">Junior Developer</h5>
                 <p class="card-text">
@@ -54,7 +54,6 @@
               </div>
               <div
                 class="card-footer bg-transparent border-success"
-                align="center"
               >
                 <a
                   href="/Philip-Lalonde-Resume.pdf"
@@ -69,7 +68,7 @@
           </div>
 
           <div class="col-md">
-            <div class="card h-100 border-success">
+            <div class="card text-center h-100 border-success">
               <div class="card-body">
                 <h5 class="card-title">Working At</h5>
                 <p class="card-text">
@@ -81,7 +80,6 @@
               </div>
               <div
                 class="card-footer bg-transparent border-success"
-                align="center"
               >
                 <div>
                   <div>
@@ -101,7 +99,7 @@
           </div>
 
           <div class="col-md">
-            <div class="card h-100 border-success">
+            <div class="card text-center h-100 border-success">
               <div class="card-body">
                 <h5 class="card-title">FAQ</h5>
                 <p class="card-text">
@@ -112,7 +110,6 @@
               </div>
               <div
                 class="card-footer bg-transparent border-success"
-                align="center"
               >
                 <div class="text-success">
                   <router-link

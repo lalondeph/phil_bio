@@ -3,79 +3,86 @@
     <div class="col-sm"></div>
     <div class="col-sm">
       <div class="top-row pattern-dots-lg dots">
-        <div class="row">
-          <div align="center">
-            <h1 class="faq-txt">FAQ</h1>
-          </div>
+        <div align="center">
+          <h1 class="faq-txt">FAQ</h1>
         </div>
+      </div>
 
-        <div class="row">
-          <div class="faq-accordion">
-            <div class="accordion" id="faqAccordion">
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="faqOne">
-                  <button
-                    class="accordion-button"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseOne"
-                    aria-expanded="true"
-                    aria-controls="collapseOne"
-                  >
-                    FAQ #1
-                  </button>
-                </h2>
-                <div
-                  id="collapseOne"
-                  class="accordion-collapse collapse show"
-                  aria-labelledby="headingOne"
-                  data-bs-parent="#faqAccordion"
+      <div class="row">
+        <div class="faq-accordion">
+          <div class="accordion" id="faqAccordion">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="faqOne">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
                 >
-                  <div class="accordion-body">Hello!</div>
+                  Why isn't this section complete?
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse show"
+                aria-labelledby="headingOne"
+                data-bs-parent="#faqAccordion"
+              >
+                <div class="accordion-body">
+                  Great question! Between school, work, and family, I'm swamped.
+                  I will update this section as soon as I can.
                 </div>
               </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="faqTwo">
-                  <button
-                    class="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseTwo"
-                    aria-expanded="false"
-                    aria-controls="collapseTwo"
-                  >
-                    FAQ #2
-                  </button>
-                </h2>
-                <div
-                  id="collapseTwo"
-                  class="accordion-collapse collapse"
-                  aria-labelledby="headingTwo"
-                  data-bs-parent="#faqAccordion"
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="faqTwo">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
                 >
-                  <div class="accordion-body">hello agian</div>
+                  Got any good memes tho?
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingTwo"
+                data-bs-parent="#faqAccordion"
+                align="center"
+              >
+                <div class="accordion-body">
+                  <img src="../assets/meme.jpg" alt="bad meme" class="meme" />
                 </div>
               </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="faqThree">
-                  <button
-                    class="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseThree"
-                    aria-expanded="false"
-                    aria-controls="collapseThree"
-                  >
-                    FAQ #3
-                  </button>
-                </h2>
-                <div
-                  id="collapseThree"
-                  class="accordion-collapse collapse"
-                  aria-labelledby="headingThree"
-                  data-bs-parent="#faqAccordion"
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="faqThree">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
                 >
-                  <div class="accordion-body">And again!</div>
+                  So what's here then?
+                </button>
+              </h2>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingThree"
+                data-bs-parent="#faqAccordion"
+              >
+                <div class="accordion-body">
+                  Sorry, still nothing! Please check back back later for a
+                  proper FAQ.
                 </div>
               </div>
             </div>
@@ -91,9 +98,6 @@
 </script>
 
 <style scoped>
-/* .top-row {
-  margin-top: 5%;
-} */
 .faq-txt {
   color: #ffaa00;
   font-size: 8em;
@@ -103,5 +107,10 @@
 }
 .faq-accordion {
   margin-top: 5%;
+}
+.meme {
+  width: 100%;
+  height: auto;
+  max-width: 400px;
 }
 </style>
