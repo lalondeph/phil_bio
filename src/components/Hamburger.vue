@@ -21,13 +21,15 @@
           >
             <i class="bi bi-house-door-fill"></i> Home
           </button>
+
           <button
             class="dropdown-item text-success"
-            :class="{ active: $route.name === 'FAQ' }"
-            @click="$router.push({ name: 'FAQ' })"
+            :class="{ active: $route.name === 'About' }"
+            @click="$router.push({ name: 'About' })"
           >
-            <i class="bi bi-person-fill text-secondary"></i> FAQ
+            <i class="bi bi-person-fill text-secondary"></i> About
           </button>
+
           <button
             class="dropdown-item text-success"
             :class="{ active: $route.name === 'Contact' }"
@@ -35,6 +37,15 @@
           >
             <i class="bi bi-envelope-fill"></i> Contact
           </button>
+
+          <a
+            href="https://github.com/lalondeph"
+            target="_blank"
+            role="button"
+            class="btn dropdown-item text-success"
+          >
+            <i class="bi bi-github text-dark"></i> GitHub
+          </a>
         </div>
       </div>
     </div>
@@ -42,7 +53,6 @@
 </template>
 
 <script>
-// TODO: Recieve current page as a prop to set active
 </script>
 
 <style scoped>

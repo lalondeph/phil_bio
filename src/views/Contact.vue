@@ -2,27 +2,28 @@
   <div class="container">
     <div class="col-sm"></div>
     <div class="col-sm">
-      <div class="top-row pattern-dots-lg dots">
+      <div class="top-row">
         <div align="center">
           <h1 class="contact-txt">Contact</h1>
         </div>
       </div>
       <div class="contact-form">
-        <form @submit.prevent="handleSubmit" class="text-success">
+        <form
+          action="https://formspree.io/f/mdoborqy"
+          @submit="onSubmit()"
+          class="text-success"
+          method="POST"
+        >
           <div class="mb-3">
-            <label for="email" class="form-label"
-              >Email Address</label
-            >
+            <label for="email" class="form-label">Email Address</label>
             <input
               type="email"
               class="form-control form-control-lg"
               v-model="email"
               id="email"
+              name="_replyto"
               aria-describedby="emailHelp"
             />
-            <div id="emailHelp" class="form-text">
-              <i class="bi bi-lock"> Confidential</i>
-            </div>
           </div>
           <div class="mb-3">
             <label for="message" class="form-label">Message</label>
@@ -31,9 +32,10 @@
               v-model="message"
               id="message"
               rows="5"
+              name="message"
             ></textarea>
           </div>
-            <button type="submit" class="btn btn-success">Submit</button>
+          <button type="submit" class="btn btn-success">Submit</button>
         </form>
       </div>
     </div>
@@ -42,19 +44,18 @@
 </template>
 
 <script>
-  // methods: {
-  //   handleSubmit() {
-  //     // Send data to the server or update your stores and such.
-  //   }
-  // }
+export default {
+  methods: {
+    onSubmit: function () {
+      alert("test");
+    },
+  },
+};
 </script>
 
 <style scoped>
 .contact-txt {
   color: #ffaa00;
   font-size: clamp(4em, 20vw, 8em);
-}
-.dots {
-  color: #198754;
 }
 </style>
