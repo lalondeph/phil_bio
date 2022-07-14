@@ -7,6 +7,7 @@
           <h1 class="faq-txt avoid-wrap">About Me</h1>
         </div>
       </div>
+      <!-- C++ C# Java Spring HTML CSS Javascript PHP Laravel VueJS SQL COBOL JCL  -->
 
       <div class="row">
         

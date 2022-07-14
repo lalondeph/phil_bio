@@ -48,11 +48,9 @@
         <div class="col mb-5">
           <div class="card text-center h-100 border-success">
             <div class="card-body">
-              <h5 class="card-title">Junior Developer</h5>
+              <h5 class="card-title">Advanced Diploma</h5>
               <p class="card-text">
-                Graduating from the Computer Programmer Analyst program at St.
-                Lawrence College spring of 2022. Download my resume for more
-                information.
+                Graduated with distinction from the Computer Programmer Analyst program at St.Lawrence College, June 2022. Download my resume for more information.
               </p>
             </div>
             <div class="card-footer bg-transparent border-success">
@@ -71,7 +69,7 @@
         <div class="col mb-5">
           <div class="card text-center h-100 border-success">
             <div class="card-body">
-              <h5 class="card-title">Working At</h5>
+              <h5 class="card-title">Software Engineer</h5>
               <p class="card-text">
                 Working as a software engineer at Elentra, and loving every
                 minute of it. Elentra is a leading innovator in competency based
@@ -107,13 +105,14 @@
             </div>
             <div class="card-footer bg-transparent border-success">
               <div class="text-success">
-                <router-link
+                 <i class="bi bi-person-fill text-secondary"></i>Coming Soon
+                <!-- <router-link
                   to="/About"
                   class="btn stretched-link text-success"
                   role="button"
                 >
                   <i class="bi bi-person-fill text-secondary"></i> About
-                </router-link>
+                </router-link> -->
               </div>
             </div>
           </div>
