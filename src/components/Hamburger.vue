@@ -22,21 +22,21 @@
             <i class="bi bi-house-door-fill"></i> Home
           </button>
 
-          <button
+          <!-- <button
             class="dropdown-item text-success"
             :class="{ active: $route.name === 'About' }"
             @click="$router.push({ name: 'About' })"
           >
             <i class="bi bi-person-fill text-secondary"></i> About
-          </button>
+          </button> -->
 
-          <!-- <button
+          <button
             class="dropdown-item text-success"
             :class="{ active: $route.name === 'Contact' }"
             @click="$router.push({ name: 'Contact' })"
           >
             <i class="bi bi-envelope-fill"></i> Contact
-          </button> -->
+          </button>
 
           <a
             href="https://github.com/lalondeph"
